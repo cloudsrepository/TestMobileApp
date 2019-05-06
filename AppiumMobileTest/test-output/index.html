@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\SeleniumWorkSpace\Batch_24th-Sep_WebDriver\AppiumMobileTest\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 7 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.DisplayPopupTest" hash-for-method="clicks_on_Display_Popup_button">clicks_on_Display_Popup_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.EnterDataInTextBoxHomePageTest" hash-for-method="enterDataInTextBoxATHomePage()">enterDataInTextBoxATHomePage()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.EnterDataInTextBoxHomePageTest" hash-for-method="enterDataInTextBoxATHomePage()">enterDataInTextBoxATHomePage()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.EnterDataInTextBoxHomePageTest" hash-for-method="enterDataInTextBoxATHomePage()">enterDataInTextBoxATHomePage()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.NewUserRegistrationTest" hash-for-method="newUsrReg(gaurav.agarwal, gaurav.agarwalvi@gmail.com, testAccount, MR. Gaurav Agarwal)">newUsrReg(gaurav.agarwal, gaurav.agarwalvi@gmail.com, testAccount, MR. Gaurav Agarwal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.RegisterConfirmedTest" hash-for-method="regConfirm">regConfirm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.DisplayToastMessageTest" hash-for-method="tostMessage">tostMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.EnterDataInTextBoxHomePageTest" hash-for-method="enterDataInTextBoxATHomePage(Welcome Gaurav Agarwal)">enterDataInTextBoxATHomePage(Welcome Gaurav Agarwal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.NewUserRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="newUsrReg(gaurav.agarwal, gaurav.agarwalvi@gmail.com, testAccount, MR. Gaurav Agarwal)">
+                  </a> <!-- newUsrReg(gaurav.agarwal, gaurav.agarwalvi@gmail.com, testAccount, MR. Gaurav Agarwal) -->
+                  <span class="method-name">newUsrReg</span>
+                  <span class="parameters">(gaurav.agarwal, gaurav.agarwalvi@gmail.com, testAccount, MR. Gaurav Agarwal)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/label_name_data}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.NewUserRegistrationTest.newUsrReg(NewUserRegistrationTest.java:26)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case:2 => User Registration)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.DisplayPopupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clicks_on_Display_Popup_button">
+                  </a> <!-- clicks_on_Display_Popup_button -->
+                  <span class="method-name">clicks_on_Display_Popup_button</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/showPopupWindowButton}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.DisplayPopupTest.clicks_on_Display_Popup_button(DisplayPopupTest.java:13)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case: 4 => Display Popup Message by clicking on Display Popup Window)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.EnterDataInTextBoxHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDataInTextBoxATHomePage()">
+                  </a> <!-- enterDataInTextBoxATHomePage() -->
+                  <span class="method-name">enterDataInTextBoxATHomePage</span>
+                  <span class="parameters">()</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.EnterDataInTextBoxHomePageTest.enterDataInTextBoxATHomePage(EnterDataInTextBoxHomePageTest.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case: 1 ==> Open Selendroid App & Enter Input data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDataInTextBoxATHomePage()">
+                  </a> <!-- enterDataInTextBoxATHomePage() -->
+                  <span class="method-name">enterDataInTextBoxATHomePage</span>
+                  <span class="parameters">()</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.EnterDataInTextBoxHomePageTest.enterDataInTextBoxATHomePage(EnterDataInTextBoxHomePageTest.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case: 1 ==> Open Selendroid App & Enter Input data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDataInTextBoxATHomePage()">
+                  </a> <!-- enterDataInTextBoxATHomePage() -->
+                  <span class="method-name">enterDataInTextBoxATHomePage</span>
+                  <span class="parameters">()</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/my_text_field}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.EnterDataInTextBoxHomePageTest.enterDataInTextBoxATHomePage(EnterDataInTextBoxHomePageTest.java:17)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case: 1 ==> Open Selendroid App & Enter Input data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.RegisterConfirmedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="regConfirm">
+                  </a> <!-- regConfirm -->
+                  <span class="method-name">regConfirm</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/label_name_data}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.RegisterConfirmedTest.regConfirm(RegisterConfirmedTest.java:13)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case: 1 ==> User Successfully Register confirmation Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.DisplayToastMessageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tostMessage">
+                  </a> <!-- tostMessage -->
+                  <span class="method-name">tostMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.37 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;GauravA-LPTP&apos;, ip: &apos;192.168.48.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{appPackage=io.selendroid.testapp, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZW222285ZK, platform=LINUX, deviceUDID=ZW222285ZK, appActivity=.HomeScreenActivity, desired={appPackage=io.selendroid.testapp, appActivity=.HomeScreenActivity, platformVersion=7.0, browserName=, platformName=Android, deviceName=ANDR_EMU}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=, javascriptEnabled=true, deviceModel=Moto C Plus, platformName=Android, deviceManufacturer=motorola}]
+Session ID: 8a6cffe2-1d97-4a7c-af3a-dcf92206467a
+*** Element info: {Using=id, value=io.selendroid.testapp:id/showToastButton}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at testcases.DisplayToastMessageTest.tostMessage(DisplayToastMessageTest.java:13)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Case: 5 => Display Toast Message)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.EnterDataInTextBoxHomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterDataInTextBoxATHomePage(Welcome Gaurav Agarwal)">
+                  </a> <!-- enterDataInTextBoxATHomePage(Welcome Gaurav Agarwal) -->
+                  <span class="method-name">enterDataInTextBoxATHomePage</span>
+                  <span class="parameters">(Welcome Gaurav Agarwal)</span>
+                  <em>
+(Test Case: 1 ==> Open Selendroid App & Enter Input data)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\SeleniumWorkSpace\Batch_24th-Sep_WebDriver\AppiumMobileTest\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Enter Data in TextBox at HomePage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.EnterDataInTextBoxHomePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Enter Data in TextBox at HomePage Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;New User Registration Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.NewUserRegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- New User Registration Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;New User Registratered successfully Test &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.RegisterConfirmedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- New User Registratered successfully Test  --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Display Popup window Test &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DisplayPopupTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Display Popup window Test  --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Display Toast Message Test &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.DisplayToastMessageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Display Toast Message Test  --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Enter Data in TextBox at HomePage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">New User Registration Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">New User Registratered successfully Test  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Display Popup window Test  (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Display Toast Message Test  (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'newUsrReg')
+data.setCell(0, 2, 'testcases.NewUserRegistrationTest')
+data.setCell(0, 3, 23459);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterDataInTextBoxATHomePage')
+data.setCell(1, 2, 'testcases.EnterDataInTextBoxHomePageTest')
+data.setCell(1, 3, 15539);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tostMessage')
+data.setCell(2, 2, 'testcases.DisplayToastMessageTest')
+data.setCell(2, 3, 5373);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'regConfirm')
+data.setCell(3, 2, 'testcases.RegisterConfirmedTest')
+data.setCell(3, 3, 5305);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'enterDataInTextBoxATHomePage')
+data.setCell(4, 2, 'testcases.EnterDataInTextBoxHomePageTest')
+data.setCell(4, 3, 5262);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'enterDataInTextBoxATHomePage')
+data.setCell(5, 2, 'testcases.EnterDataInTextBoxHomePageTest')
+data.setCell(5, 3, 5261);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'enterDataInTextBoxATHomePage')
+data.setCell(6, 2, 'testcases.EnterDataInTextBoxHomePageTest')
+data.setCell(6, 3, 5229);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clicks_on_Display_Popup_button')
+data.setCell(7, 2, 'testcases.DisplayPopupTest')
+data.setCell(7, 3, 5120);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DisplayToastMessageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.EnterDataInTextBoxHomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">enterDataInTextBoxATHomePage(Welcome Gaurav Agarwal)</span>
+                <span class="method-start">22690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterDataInTextBoxATHomePage()</span>
+                <span class="method-start">38235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterDataInTextBoxATHomePage()</span>
+                <span class="method-start">43517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">enterDataInTextBoxATHomePage()</span>
+                <span class="method-start">48753 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NewUserRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">newUsrReg(gaurav.agarwal, gaurav.agarwalvi@gmail.com, testAccount, MR. Gaurav Agarwal)</span>
+                <span class="method-start">54147 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.RegisterConfirmedTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">regConfirm</span>
+                <span class="method-start">77697 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DisplayPopupTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clicks_on_Display_Popup_button</span>
+                <span class="method-start">83139 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.DisplayToastMessageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tostMessage</span>
+                <span class="method-start">88299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93723 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
